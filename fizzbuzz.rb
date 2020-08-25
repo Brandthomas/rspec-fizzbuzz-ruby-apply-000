@@ -6,7 +6,7 @@ def fizzbuzz
     result << if     n % 3 == 0 && n % 5 == 0 then "FizzBuzz"
               elsif  n % 3 == 0               then "Fizz"
               elsif  n % 5 == 0               then "Buzz"
-              else   n % 4 == 0               then "nil"
+              else   n
               end
   end
   result
